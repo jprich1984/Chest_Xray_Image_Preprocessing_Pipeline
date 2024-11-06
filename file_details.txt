@@ -1,0 +1,33 @@
+Link to Covid-19-Radiography Database: https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
+
+Final_Notebook.ipynb: main notebook-model evaluations, morphological closing, histogram equalization, final pipeline, and results
+
+Model_Fitting.html: Notebook that shows how the Unet segmentation model was fit.
+
+Model_Summary.txt: Summary for Unet model
+
+Main_Notebook.html: html version of the Final Notebook without final Pipeline and results
+
+Final_Pipeline.html: Show the functions for the final pipeline and show the results (masked images)
+
+Final Project Proposal_.JakeP_DeepLearning.pdf: project proposal
+
+Deep Learning Final Project Report.pdf: Final Report
+
+paths.npy: A list of relative paths to images that were used as the test set
+
+predicted_masks.npy: Predicted masks from model4 that correspond to the image paths in paths.npy
+
+labels.npy: A list of binary labels 1 (any pneumonia) 0 (normal) which correspond to the paths in paths.npy.  Primarly used in other notebooks to test models that predict pneumonia.
+
+predicted_masks_model6.npy: Predicted masks from model 6 which correspond to the image file in paths.npy
+
+Cropped_Images2: A small set of images that were processed by the final pipeline.  Used for plotting images in the notebook.
+
+Model_Fitting.ipynb: Notebook to fit the Unet model.  May not run all the way through, but should run through the model fitting.
+
+best_model4.keras: Model after the first round of training. Used in final notebook for analysis.
+
+best_model6.keras: Model used in final pipeline.
+
+
